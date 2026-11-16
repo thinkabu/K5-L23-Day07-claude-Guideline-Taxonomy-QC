@@ -26,6 +26,13 @@
         ]
       },
       {
+        "name": "load_attached",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      },
+      {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
@@ -35,7 +42,7 @@
     ]
   },
   {
-    "name": "truck",
+    "name": "van",
     "color": "#3cb44b",
     "attributes": [
       {
@@ -61,6 +68,13 @@
         ]
       },
       {
+        "name": "load_attached",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      },
+      {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
@@ -70,7 +84,7 @@
     ]
   },
   {
-    "name": "van",
+    "name": "bus",
     "color": "#4363d8",
     "attributes": [
       {
@@ -96,6 +110,13 @@
         ]
       },
       {
+        "name": "load_attached",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      },
+      {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
@@ -105,7 +126,7 @@
     ]
   },
   {
-    "name": "motorcycle",
+    "name": "truck",
     "color": "#f58231",
     "attributes": [
       {
@@ -131,6 +152,13 @@
         ]
       },
       {
+        "name": "load_attached",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      },
+      {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
@@ -140,7 +168,7 @@
     ]
   },
   {
-    "name": "person",
+    "name": "motorcycle",
     "color": "#911eb4",
     "attributes": [
       {
@@ -164,6 +192,139 @@
           "no",
           "yes"
         ]
+      },
+      {
+        "name": "load_attached",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      }
+    ]
+  },
+  {
+    "name": "three_wheeler",
+    "color": "#46c8c8",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "load_attached",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      }
+    ]
+  },
+  {
+    "name": "bicycle",
+    "color": "#f032e6",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "load_attached",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      }
+    ]
+  },
+  {
+    "name": "person",
+    "color": "#9a6324",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "load_attached",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
       },
       {
         "name": "can_review",

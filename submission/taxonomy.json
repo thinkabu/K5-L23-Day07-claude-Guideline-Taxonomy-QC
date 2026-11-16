@@ -1,17 +1,21 @@
 {
-  "version": "v0",
+  "version": "v1.0",
   "ignore_class": "ignore_region",
   "classes": [
-    {"name": "car", "definition": "Ô tô con, SUV."},
-    {"name": "truck", "definition": "Xe tải, xe có thùng hàng riêng."},
-    {"name": "van", "definition": "Xe thùng kín cỡ nhỏ."},
-    {"name": "motorcycle", "definition": "Xe máy, mô tô."},
-    {"name": "person", "definition": "Người đi bộ hoặc người ngồi trên xe."},
-    {"name": "ignore_region", "definition": "Vùng bỏ qua (không phải vật): nơi không gán từng vật, bỏ sót ở đây không tính là lỗi."}
+    {"name": "car", "definition": "Xe bốn bánh chở người, khoang hành khách kín liền khối với thân, không có thùng hàng tách khỏi cabin. Gồm sedan, hatchback, SUV, taxi."},
+    {"name": "van", "definition": "Xe thùng kín một khối cao hơn car, dưới 4 ô cửa sổ hành khách liên tiếp một bên và không có cửa lên xuống riêng cho khách."},
+    {"name": "bus", "definition": "Xe chở khách thân dài, từ 4 ô cửa sổ hành khách liên tiếp một bên trở lên hoặc có cửa lên xuống riêng cho khách. Gồm cả xe khách nhỏ loại County."},
+    {"name": "truck", "definition": "Xe chở hàng có thùng, khung hoặc bệ chở tách khỏi cabin lái. Gồm xe tải thùng, xe ben, đầu kéo, xe chở xe và xe bán tải."},
+    {"name": "motorcycle", "definition": "Xe hai bánh có động cơ: xe số, xe tay ga, mô tô, xe máy điện. Tính cả xe đang dựng và xe đang được dắt bộ."},
+    {"name": "three_wheeler", "definition": "Xe ba bánh chở người hoặc chở hàng, có động cơ hoặc đạp chân: tuk-tuk, auto-rickshaw, xe lam, xe ba gác, xích lô."},
+    {"name": "bicycle", "definition": "Xe đạp hai bánh không động cơ, có bàn đạp và xích. Tính cả xe đạp thồ và xe đang được dắt bộ."},
+    {"name": "person", "definition": "Người thật đang đi bộ, đứng, ngồi ngoài khoang kín, hoặc điều khiển xe hai và ba bánh."},
+    {"name": "ignore_region", "definition": "Vùng bỏ qua, không phải vật thể: cụm vật dưới 20 px hoặc cụm vật không thật. Bỏ sót bên trong vùng này không tính là lỗi QC."}
   ],
   "attributes": [
     {"name": "occluded_level", "type": "select", "values": ["0", "1", "2", "3"], "default": "0"},
     {"name": "truncated", "type": "select", "values": ["no", "yes"], "default": "no"},
+    {"name": "load_attached", "type": "checkbox", "values": [], "default": "false"},
     {"name": "can_review", "type": "checkbox", "values": [], "default": "false"}
   ],
   "rules": {

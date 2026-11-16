@@ -1,0 +1,3 @@
+image,annotator,region,note
+img_022.jpg,209,"vệt tối ngay sau yên xe, khoảng x=595..640, y=460..505","Ảnh trắng đen, độ phân giải thấp: không phân biệt được đó là người đứng cạnh xe hay kính chắn gió của thùng bên. Đã gán box motorcycle và bật can_review, không gán person."
+img_013.jpg,123,"dãy xe đỗ bên trái đường, khoảng x=135..285, y=418..450","Ảnh ban đêm, các xe ở xa cao 15 đến 18 px và quá tối để đọc ra ô tô hay xe máy. Chưa vẽ vùng ignore_region vì chưa chắc ranh giới cụm, cần nhóm chốt ở buổi calibration."

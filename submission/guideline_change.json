@@ -1,0 +1,4 @@
+{
+  "kind": "semantic",
+  "summary": "R-07, R-09 va R-10 doi cach chon vat: xe duoc cho tren xe khac co box rieng, ignore_region chi dung cho vat duoi 20 px hoac cum khong tach duoc bien, vat ba chieu khong phai xe hoat dong hay nguoi song thi khong gan. Phai ra lai ca 40 anh."
+}

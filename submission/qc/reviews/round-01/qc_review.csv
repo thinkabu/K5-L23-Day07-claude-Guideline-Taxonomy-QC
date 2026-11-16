@@ -1,0 +1,44 @@
+image,object_id,error_type,reviewer,rule_id,region,note
+img_001.jpg,,khong,123,,,
+img_002.jpg,,khong,209,,,
+img_003.jpg,,khong,345,,,
+img_004.jpg,,khong,123,,,
+img_005.jpg,,khong,209,,,
+img_006.jpg,,khong,345,,,
+img_007.jpg,77,sai_lop,123,2.3 truck,,"Xe trang giua anh la ban tai Toyota Hilux: phong to thay ro thanh thung ho va gia noc sau cabin. Theo dinh nghia truck (thung tach khoi cabin) phai la truck, dang gan car."
+img_008.jpg,,khong,209,,,
+img_009.jpg,,bo_sot,209,R-09,"cum xe may cuoi pho, khoang x=780..960, y=420..470",Cum xe duoi 20 px khong duoc gan rieng (dung theo R-09) nhung cung KHONG co vung ignore_region phu len. Theo R-09 phai co vung ignore de cho do khong bi tinh la bo sot.
+img_010.jpg,,khong,123,,,
+img_011.jpg,,khong,234,,,
+img_012.jpg,,khong,123,,,
+img_013.jpg,,bo_sot,345,R-09,"day xe do ben trai duong, khoang x=135..280, y=418..448",Nam xe cao 15 den 18 px bi loai dung theo nguong 20 px nhung thieu vung ignore_region bat buoc.
+img_014.jpg,,bo_sot,209,R-14,"hai xe may dang chay nhoe o nen, khoang x=480..700, y=120..300","Xe nhoe chuyen dong nhung van doc duoc hinh dang: theo R-14 phai gan va bat can_review, khong duoc bo qua."
+img_015.jpg,,khong,123,,,
+img_016.jpg,,khong,123,,,
+img_017.jpg,,khong,234,,,
+img_018.jpg,,bo_sot,234,R-09,"hang xe xa nhat sau hang rao, khoang x=560..960, y=495..535",Day mui xe o xa duoi 20 px khong co vung ignore_region.
+img_019.jpg,,bo_sot,123,R-09,"dam dong khan gia sau hang rao, khoang x=0..960, y=0..200",Chi 5 nguoi o ria duoc gan; phan dam dong con lai khong tach duoc bien va khong co vung ignore_region phu len.
+img_020.jpg,,khong,345,,,
+img_021.jpg,,bo_sot,209,R-09,"dai xe may phia sau hai vung ignore, khoang x=0..330, y=200..300","Phan ben trai cung day dac nhu phan da phu ignore nhung khong duoc phu, cung khong gan tung chiec."
+img_022.jpg,,khong,123,,,
+img_023.jpg,,khong,234,,,
+img_024.jpg,,khong,234,,,
+img_025.jpg,,khong,123,,,
+img_026.jpg,,khong,209,,,
+img_027.jpg,,khong,234,,,
+img_028.jpg,,khong,123,,,
+img_029.jpg,,khong,123,,,
+img_030.jpg,253,sai_vi_tri_kich_thuoc,209,R-01,,"Box ve tay cho xe may tien canh ben trai lech khoi bien that, chua om sat theo R-01 va R-03."
+img_030.jpg,254,sai_vi_tri_kich_thuoc,209,R-01,,"Box ve tay cho xe may Honda do o giua rong hon than xe, me phai an sang xe ben canh."
+img_030.jpg,255,sai_vi_tri_kich_thuoc,209,R-01,,Box ve tay cho xe may ben phai lay ca phan banh xe cua chiec ke ben.
+img_031.jpg,,khong,345,,,
+img_032.jpg,,khong,123,,,
+img_033.jpg,,khong,123,,,
+img_034.jpg,,khong,209,,,
+img_035.jpg,,khong,345,,,
+img_036.jpg,,khong,209,,,
+img_037.jpg,,khong,123,,,
+img_038.jpg,,khong,209,,,
+img_039.jpg,,khong,123,,,
+img_040.jpg,364,sai_lop,234,2.3 three_wheeler,,"Box nam tren chiec tuk-tuk bien JA-5725 (mui vai, thanh ho, ba banh) nhung gan car. Phai la three_wheeler."
+img_040.jpg,364,sai_vi_tri_kich_thuoc,234,R-01,,"Cung box do con om ca chiec SUV mau toi phia sau, rong hon vat that khoang 300 px theo chieu ngang."

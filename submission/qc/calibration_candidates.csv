@@ -1,0 +1,78 @@
+case_id,image,issue_type,annotators,class_a,class_b,box_a,box_b,iou,ghi_chu_tu_dong
+C001,img_002.jpg,bo_sot_thua,123|345,,car,,"[152,49,359,147]",,Chỉ 345 vẽ car này. 123 bỏ sót hoặc 345 vẽ thừa.
+C002,img_002.jpg,bo_sot_thua,123|345,,car,,"[480,88,153,130]",,Chỉ 345 vẽ car này. 123 bỏ sót hoặc 345 vẽ thừa.
+C003,img_002.jpg,bo_sot_thua,123|345,,car,,"[543,243,163,126]",,Chỉ 345 vẽ car này. 123 bỏ sót hoặc 345 vẽ thừa.
+C004,img_002.jpg,bo_sot_thua,123|345,,car,,"[614,121,125,100]",,Chỉ 345 vẽ car này. 123 bỏ sót hoặc 345 vẽ thừa.
+C005,img_002.jpg,bo_sot_thua,123|345,,car,,"[716,150,111,97]",,Chỉ 345 vẽ car này. 123 bỏ sót hoặc 345 vẽ thừa.
+C006,img_002.jpg,bo_sot_thua,123|345,,car,,"[817,173,76,81]",,Chỉ 345 vẽ car này. 123 bỏ sót hoặc 345 vẽ thừa.
+C007,img_002.jpg,bo_sot_thua,345|777,car,,"[152,49,359,147]",,,Chỉ 345 vẽ car này. 777 bỏ sót hoặc 345 vẽ thừa.
+C008,img_002.jpg,bo_sot_thua,345|777,car,,"[480,88,153,130]",,,Chỉ 345 vẽ car này. 777 bỏ sót hoặc 345 vẽ thừa.
+C009,img_002.jpg,bo_sot_thua,345|777,car,,"[543,243,163,126]",,,Chỉ 345 vẽ car này. 777 bỏ sót hoặc 345 vẽ thừa.
+C010,img_002.jpg,bo_sot_thua,345|777,car,,"[614,121,125,100]",,,Chỉ 345 vẽ car này. 777 bỏ sót hoặc 345 vẽ thừa.
+C011,img_002.jpg,bo_sot_thua,345|777,car,,"[716,150,111,97]",,,Chỉ 345 vẽ car này. 777 bỏ sót hoặc 345 vẽ thừa.
+C012,img_002.jpg,bo_sot_thua,345|777,car,,"[817,173,76,81]",,,Chỉ 345 vẽ car này. 777 bỏ sót hoặc 345 vẽ thừa.
+C013,img_002.jpg,co_can_review,345,car,,"[152,49,359,147]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C014,img_002.jpg,co_can_review,345,car,,"[480,88,153,130]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C015,img_002.jpg,co_can_review,345,car,,"[543,243,163,126]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C016,img_002.jpg,co_can_review,345,car,,"[614,121,125,100]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C017,img_002.jpg,co_can_review,345,car,,"[716,150,111,97]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C018,img_002.jpg,co_can_review,345,car,,"[817,173,76,81]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C019,img_002.jpg,co_can_review,777,truck,,"[138,49,756,490]",,,"777 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C020,img_002.jpg,iou_thap,123|777,truck,truck,"[138,158,756,381]","[138,49,756,490]",0.78,IoU 0.78 < ngưỡng 0.85 (box lệch/lỏng/thiếu phần vật)
+C021,img_002.jpg,iou_thap,345|777,truck,truck,"[138,158,756,381]","[138,49,756,490]",0.78,IoU 0.78 < ngưỡng 0.85 (box lệch/lỏng/thiếu phần vật)
+C022,img_002.jpg,sai_thuoc_tinh,123|777,truck,truck,"[138,158,756,381]","[138,49,756,490]",0.78,load_attached: 123=false vs 777=true
+C023,img_002.jpg,sai_thuoc_tinh,345|777,truck,truck,"[138,158,756,381]","[138,49,756,490]",0.78,load_attached: 345=false vs 777=true
+C024,img_013.jpg,can_review_anh,123,,,,,,"dãy xe đỗ bên trái đường, khoảng x=135..285, y=418..450 — Ảnh ban đêm, các xe ở xa cao 15 đến 18 px và quá tối để đọc ra ô tô hay xe máy. Chưa vẽ vùng ignore_region vì chưa chắc ranh giới cụm, cần nhóm chốt ở buổi calibration."
+C025,img_019.jpg,co_can_review,234,car,,"[120,200,758,428]",,,"234 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C026,img_019.jpg,co_can_review,345,car,,"[120,200,758,428]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C027,img_019.jpg,co_can_review,777,car,,"[120,200,758,428]",,,"777 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C028,img_021.jpg,bat_dong_ignore,123|234,,,,"[330,200,270,130]",,Vùng ignore không ghép được với vùng của người kia.
+C029,img_021.jpg,bat_dong_ignore,123|234,,,,"[720,200,239,100]",,Vùng ignore không ghép được với vùng của người kia.
+C030,img_021.jpg,bat_dong_ignore,123|234,person,,"[802,243,51,104]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C031,img_021.jpg,bat_dong_ignore,123|234,person,,"[396,274,86,98]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C032,img_021.jpg,bat_dong_ignore,123|234,person,,"[567,257,53,88]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C033,img_021.jpg,bat_dong_ignore,123|234,person,,"[753,229,39,81]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C034,img_021.jpg,bat_dong_ignore,123|234,motorcycle,,"[753,272,37,50]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C035,img_021.jpg,bat_dong_ignore,123|345,,,,"[330,200,270,130]",,Vùng ignore không ghép được với vùng của người kia.
+C036,img_021.jpg,bat_dong_ignore,123|345,,,,"[720,200,239,100]",,Vùng ignore không ghép được với vùng của người kia.
+C037,img_021.jpg,bat_dong_ignore,123|345,person,,"[802,243,51,104]",,,Chỉ vùng ignore của 345 phủ box của 123.
+C038,img_021.jpg,bat_dong_ignore,123|345,person,,"[396,274,86,98]",,,Chỉ vùng ignore của 345 phủ box của 123.
+C039,img_021.jpg,bat_dong_ignore,123|345,person,,"[567,257,53,88]",,,Chỉ vùng ignore của 345 phủ box của 123.
+C040,img_021.jpg,bat_dong_ignore,123|345,person,,"[753,229,39,81]",,,Chỉ vùng ignore của 345 phủ box của 123.
+C041,img_021.jpg,bat_dong_ignore,123|345,motorcycle,,"[753,272,37,50]",,,Chỉ vùng ignore của 345 phủ box của 123.
+C042,img_022.jpg,can_review_anh,209,,,,,,"vệt tối ngay sau yên xe, khoảng x=595..640, y=460..505 — Ảnh trắng đen, độ phân giải thấp: không phân biệt được đó là người đứng cạnh xe hay kính chắn gió của thùng bên. Đã gán box motorcycle và bật can_review, không gán person."
+C043,img_022.jpg,co_can_review,209,motorcycle,,"[495,468,197,149]",,,"209 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C044,img_022.jpg,co_can_review,234,motorcycle,,"[495,468,197,149]",,,"234 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C045,img_022.jpg,co_can_review,777,motorcycle,,"[495,468,197,149]",,,"777 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C046,img_024.jpg,bo_sot_thua,123|209,,car,,"[239,44,463,202]",,Chỉ 209 vẽ car này. 123 bỏ sót hoặc 209 vẽ thừa.
+C047,img_024.jpg,bo_sot_thua,123|345,,car,,"[239,44,463,202]",,Chỉ 345 vẽ car này. 123 bỏ sót hoặc 345 vẽ thừa.
+C048,img_024.jpg,co_can_review,209,car,,"[239,44,463,202]",,,"209 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C049,img_024.jpg,co_can_review,345,car,,"[239,44,463,202]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C050,img_030.jpg,bat_dong_ignore,123|234,,,,"[0,0,680,335]",,Vùng ignore không ghép được với vùng của người kia.
+C051,img_030.jpg,bat_dong_ignore,123|234,,,,"[770,0,189,335]",,Vùng ignore không ghép được với vùng của người kia.
+C052,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[2,165,305,259]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C053,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[187,124,182,224]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C054,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[372,157,257,219]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C055,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[353,97,216,186]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C056,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[766,86,156,161]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C057,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[235,188,135,161]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C058,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[366,241,229,136]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C059,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[352,170,219,118]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C060,img_030.jpg,bat_dong_ignore,123|234,motorcycle,,"[294,128,76,110]",,,Chỉ vùng ignore của 234 phủ box của 123.
+C061,img_030.jpg,bat_dong_ignore,123|777,,,,"[0,0,680,335]",,Vùng ignore không ghép được với vùng của người kia.
+C062,img_030.jpg,bat_dong_ignore,123|777,,,,"[770,0,189,335]",,Vùng ignore không ghép được với vùng của người kia.
+C063,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[2,165,305,259]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C064,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[187,124,182,224]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C065,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[372,157,257,219]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C066,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[353,97,216,186]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C067,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[766,86,156,161]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C068,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[235,188,135,161]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C069,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[366,241,229,136]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C070,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[352,170,219,118]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C071,img_030.jpg,bat_dong_ignore,123|777,motorcycle,,"[294,128,76,110]",,,Chỉ vùng ignore của 777 phủ box của 123.
+C072,img_033.jpg,bo_sot_thua,234|345,person,,"[444,136,104,499]",,,Chỉ 234 vẽ person này. 345 bỏ sót hoặc 234 vẽ thừa.
+C073,img_033.jpg,bo_sot_thua,234|777,person,,"[444,136,104,499]",,,Chỉ 234 vẽ person này. 777 bỏ sót hoặc 234 vẽ thừa.
+C074,img_033.jpg,co_can_review,234,van,,"[630,0,329,639]",,,"234 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C075,img_033.jpg,co_can_review,234,person,,"[444,136,104,499]",,,"234 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C076,img_033.jpg,co_can_review,345,van,,"[630,0,329,639]",,,"345 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C077,img_033.jpg,co_can_review,777,van,,"[630,0,329,639]",,,"777 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
